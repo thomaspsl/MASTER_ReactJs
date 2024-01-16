@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-import Button from "./Button";
+import Button from "../components/Button";
 
 export default function Wrapper(props: any) {
     const [inputValue, setInputValue] = useState<string>("");
@@ -50,10 +50,7 @@ export default function Wrapper(props: any) {
             document.querySelector(".result")?.classList.add('user-select-none', 'bg-secondary', 'text-white');
             document.querySelector(".log")?.classList.remove('d-none');
             var textarea = document.querySelector(".result") as HTMLTextAreaElement;
-            if (textarea) { 
-                textarea.blur(); 
-                textarea.readOnly = true;
-            }
+            if (textarea) { textarea.blur(); textarea.readOnly = true }
         }
     }
 
@@ -82,10 +79,7 @@ export default function Wrapper(props: any) {
                     placeholder="Start typing..."
                     value={inputValue}                    
                     rows={3}
-                    onChange={(e) => {
-                        start(); 
-                        setInputValue(e.target.value);
-                    }}
+                    onChange={(e) => { start(); setInputValue(e.target.value) }}
                     onKeyDown={checkWin}
                 />
 

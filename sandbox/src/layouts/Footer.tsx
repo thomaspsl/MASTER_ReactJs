@@ -7,11 +7,11 @@ export default function Wrapper() {
 
     return (
     <>
-        <header className="text-center fixed-top">
+        <footer className="fixed-bottom text-center">
 
-            <p className="mb-0 mt-3">I'm the Header</p>
+            <p>@ 2024 - thomaspsl</p>
 
-        </header>
+        </footer>
     </>
     );
 }

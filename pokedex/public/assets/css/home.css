@@ -1,0 +1,16 @@
+.container-gen{
+    width: 60%;
+}
+
+.pokemon{
+    width: 10.5rem;
+    height: 13rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+.gap-card{
+    gap: 15px;
+}

@@ -15,7 +15,6 @@ export default function Wrapper(props: any) {
         const response = await fetch(api);
         const data = await response.json();
         setPokemons(data.pokemon_species);
-        console.log(data.pokemon_species);
     }
 
     function getGenerationsFromIndex(index: number){
@@ -37,7 +36,7 @@ export default function Wrapper(props: any) {
 
             <h4>{props.generation.name}</h4>
 
-            <div className="d-flex justify-content-between flex-wrap gap-card">
+            <div className="d-flex justify-content-around flex-wrap gap-card">
 
             {pokemons?.map((pokemon: any, index: number) => {
                 if (!extended) {

@@ -1,25 +1,12 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
-  "icons": [
-    {
-      "src": "assets/pictures/favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
-    },
-    {
-      "src": "assets/pictures/logo192.png",
-      "type": "image/png",
-      "sizes": "192x192"
-    },
-    {
-      "src": "assets/pictures/logo512.png",
-      "type": "image/png",
-      "sizes": "512x512"
-    }
-  ],
+  "name": "Sandbox",
+  "short_name": "Sandbox",
   "start_url": ".",
-  "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "icons": [{
+      "src": "assets/pictures/thomaspsl.png",
+      "sizes": "144x144 64x64 32x32 24x24 16x16",
+      "type": "image/png",
+      "purpose": "any"
+  }],
+  "display": "standalone"
 }

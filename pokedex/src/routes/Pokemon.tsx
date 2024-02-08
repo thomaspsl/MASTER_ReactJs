@@ -24,15 +24,13 @@ export default function Wrapper(props: any) {
 
                 <div className="m-auto text-center">
 
-                    <div className="card pb-3 card-pokemon">
+                    <div className="card pb-3">
 
                         <div className="row">
 
                             <div className="col-md-4 d-flex flex-column">
 
                                 <img src={pokemon.sprites?.front_default} className="pokemon-img rounded-start" alt="img" />
-
-                                <img src={pokemon.sprites?.front_shiny} className="pokemon-img rounded-start" alt="img" />
 
                             </div>
 

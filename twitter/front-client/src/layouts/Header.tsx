@@ -8,11 +8,11 @@ export default function Wrapper() {
 
     return (
     <>
-        <header className="text-center bg-white">
+        <header className="text-center fixed-top">
 
-            <h1 className="text-center mt-3 mb-3">    
+            <h1 className="text-center mb-0 mt-3">    
 
-                <Link to="/" className="text-secondary text-decoration-none fs-2">Pokédex with React</Link>
+                <Link to="/" className="text-secondary text-decoration-none fs-2">Progressive Web App</Link>
                 
             </h1>
 

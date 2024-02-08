@@ -1,9 +1,9 @@
 {
-  "name": "Pokedex",
-  "short_name": "Pokedex",
+  "name": "Twitter",
+  "short_name": "Twitter",
   "start_url": ".",
   "icons": [{
-      "src": "assets/pictures/pokedex.png",
+      "src": "assets/pictures/thomaspsl.png",
       "sizes": "144x144 64x64 32x32 24x24 16x16",
       "type": "image/png",
       "purpose": "any"
